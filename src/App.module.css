@@ -1,0 +1,52 @@
+.main {    
+    max-width: 46rem;
+    margin: 0 auto;
+    margin-top: -27px;
+}
+
+.boxTodo {
+    margin-top: 4rem;
+    padding-bottom: 6.25rem;
+}
+
+.boxTodo header {
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;    
+    margin-bottom: 1.5rem;
+}
+
+.createdTasks,
+.completed {
+    font-size: 0.875rem;
+    font-weight: bold;
+    
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.createdTasks span,
+.completed span {
+    min-width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    
+}
+
+.createdTasks {
+    color: var(--blue-200);
+}
+
+.completed {
+    color: var(--purple-100);
+}
+
+.listOfTodo {}

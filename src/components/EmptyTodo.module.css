@@ -1,0 +1,19 @@
+.empty {
+    padding: 4rem 1.5rem;
+    text-aling: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #333333;
+    color: var(--gray-300);
+    font-size: 1rem;
+}
+
+.empty img {
+    margin-bottom: 16px;
+}
+
+.empty h3 {    
+    line-heigth: 1.4;
+}

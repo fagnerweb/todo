@@ -1,0 +1,38 @@
+.item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+}
+
+.item + .item {
+    margin-top: 12px;
+}
+
+.item p {
+    width: 100%;
+    color: var(--gray-100);
+}
+
+.taskCompleted p {
+    text-decoration: line-through;
+    color: var(--gray-300)
+}
+
+.item button {
+    height: auto;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.btnCompleted {
+    color: var(--blue-200);
+}
+
+.btnDelete {
+    color: #454545;
+}
